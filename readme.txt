@@ -1,7 +1,9 @@
 === layout Shortcodes ===
-License: GPLv2 or later
-License URI:
-
+Contributors: Matsutomo Design G.K.
+Requires at least: 5.9
+Tested up to: 5.9
+Requires PHP: 7.2
+License: GPL-2.0+
 
 == Description ==
 
@@ -16,4 +18,4 @@ License URI:
 
 
 == Changelog ==
-
+= 0.0.1 =
