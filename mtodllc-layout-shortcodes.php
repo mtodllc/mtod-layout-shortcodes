@@ -4,8 +4,8 @@
  * Description: レイアウト用のショートコードを記述しています。
  * Requires at least: 5.9
  * Requires PHP: 7.3
- * Version: 0.0.1
- * Legacy Version: 0.0.1
+ * Version: 0.0.2
+ * Legacy Version: 0.0.2
  * Author: Matsutomo Design G.K.
  * Author URI:https://mtodllc.com/
  * Plugin URI:https://github.com/mtodllc/mtod-layout-shortcodes
@@ -75,6 +75,8 @@ define( 'MTODLS_WP_VERSION', get_bloginfo( 'version' ) );
 define( 'MTODLS_PATH', untrailingslashit( plugin_dir_path( __FILE__ ) ) );
 define( 'MTODLS_URI', untrailingslashit( plugin_dir_url( __FILE__ ) ) );
 define( 'MTODLS_BASENAME', plugin_basename( __FILE__ ) );
+define( 'MTODLS_IMGURI', MTODLS_URI.'/images');
+
 
 require_once __DIR__ . '/inc/core-execution.php';
 require_once __DIR__ . '/module/module-datasheet.php';
