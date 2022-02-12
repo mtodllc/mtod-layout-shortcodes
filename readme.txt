@@ -19,4 +19,5 @@ License: GPL-2.0+
 
 == Changelog ==
 = 0.0.2 =
+
 = 0.0.1 =
